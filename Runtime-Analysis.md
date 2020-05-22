@@ -10,8 +10,8 @@
     
 ### Complexity
 ```
-Time Complexity: O(n)
-Space Complexity: O(n)
+Time Complexity: O(1)
+Space Complexity: O(1)
 ```
 
 ## Task1
@@ -28,7 +28,7 @@ Space Complexity: O(n)
 
 ### Complexity
 ```
-Time Complexity: O(n^2)
+Time Complexity: O(2n)
 Space Complexity: O(n)
 ```
 
@@ -56,7 +56,7 @@ Space Complexity: O(n)
     - Complexity: O(1)
 
 ```
-Time Complexity: O(n)
+Time Complexity: O(n logn)
 Space Complexity: O(n)
 ```
 ## Task4

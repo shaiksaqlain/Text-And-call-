@@ -20,12 +20,16 @@ Print a message:
 """
 unique_numbers=[]
 for text in texts:
-    if text[0] or text[1] not in unique_numbers:
+    if text[0] not in unique_numbers:
         unique_numbers.append(text[0])
-
+    if text[1] not in unique_numbers:
+        unique_numbers.append(text[1])
+        
 for call in calls:
-    if call[0] or call[1] not in unique_numbers:
+    if call[0] not in unique_numbers:
         unique_numbers.append(call[0])
+    if call[1] not in unique_numbers:
+        unique_numbers.append(call[1])
 
 print('There are {} different telephone numbers in the records.'.format(len(unique_numbers)))
 
